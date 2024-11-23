@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-toolsai.jupyter",
+    "njpwerner.autodocstring",
+    "ms-python.flake8",
+    "Tyriar.sort-lines",
+    "KevinRose.vsc-python-indent",
+    "ms-python.autopep8"
+  ]
+}

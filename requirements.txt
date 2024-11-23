@@ -1,0 +1,14 @@
+Flask-Limiter==3.8.0
+faiss-cpu==1.9.0
+flask==3.1.0
+langchain-chroma==0.1.4
+langchain-community==0.3.7
+langchain-core==0.3.18
+langchain-openai==0.2.8
+langchain-text-splitters==0.3.2
+langchain==0.3.7
+pydantic==2.9.2
+python-dotenv==1.0.1
+python-slugify==8.0.4
+redis==5.2.0
+gunicorn==23.0.0

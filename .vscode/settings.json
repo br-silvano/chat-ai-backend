@@ -1,0 +1,155 @@
+{
+  "workbench.colorTheme": "Default Dark+", // Tema escuro profissional
+  "editor.fontFamily": "'Fira Code', 'JetBrains Mono', 'Courier New', monospace", // Fontes ideais para programadores com suporte a ligaduras
+  "editor.fontSize": 16, // Tamanho da fonte ideal para longas sessões
+  "editor.lineHeight": 22, // Altura da linha para facilitar a leitura
+  "editor.fontLigatures": true, // Habilita ligaduras (opcional, com fontes que suportam)
+  "editor.cursorBlinking": "smooth", // Movimento suave do cursor
+  "editor.renderWhitespace": "all", // Exibe espaços em branco (ajuda na consistência do código)
+  "workbench.iconTheme": "material-icon-theme", // Deixe a barra de atividades sempre visível
+  "explorer.compactFolders": false, // Para ver uma organização mais clara no Explorer
+  "window.zoomLevel": 0, // Zoom para visibilidade confortável
+  "editor.smoothScrolling": true, // Rolagem suave no editor
+  "editor.tabSize": 2, // Definir o tamanho das tabulações para 2 espaços
+  "editor.minimap.enabled": false, // Desativa o minimapa (distrai e não é sempre necessário)
+  "breadcrumbs.enabled": true, // Ativa breadcrumbs para facilitar navegação no código
+  "editor.guides.indentation": true, // Mostra guias de indentação no editor
+  "workbench.startupEditor": "none", // Não abre um arquivo ou tela inicial automaticamente ao iniciar
+  "workbench.colorCustomizations": {
+    "editor.background": "#1C1C1E", // Cor de fundo escura semelhante ao modo noturno dos sistemas Apple
+    "editor.foreground": "#F5F5F7", // Cor clara para o texto, semelhante ao branco suave do estilo Apple
+    "activityBar.background": "#2C2C2E", // Fundo cinza escuro para a barra de atividades
+    "activityBar.foreground": "#F5F5F7", // Cor clara para ícones da barra de atividades
+    "sideBar.background": "#242426", // Cor de fundo escura para a barra lateral
+    "sideBar.foreground": "#F5F5F7", // Texto claro na barra lateral
+    "titleBar.activeBackground": "#3A3A3C", // Cor de fundo escura para a barra de título, no estilo minimalista
+    "titleBar.activeForeground": "#F5F5F7", // Texto branco para contraste na barra de título
+    "statusBar.background": "#0070C9", // Azul clássico do estilo Apple (inspirado no ícone de ajuda e outros detalhes visuais)
+    "statusBar.foreground": "#FFFFFF", // Texto branco na barra de status
+    "tab.activeBackground": "#1C1C1E", // Cor escura de fundo para abas ativas
+    "tab.inactiveBackground": "#2C2C2E", // Fundo para abas inativas, sutilmente diferente da ativa
+    "terminal.background": "#1C1C1E", // Fundo do terminal com cor semelhante ao editor
+    "terminal.foreground": "#C7C7CC", // Texto em tom claro, inspirado no texto dos terminais do macOS
+    "statusBarItem.remoteBackground": "#34C759", // Verde vibrante, semelhante ao usado em ícones de notificação/ativação
+    "statusBarItem.remoteForeground": "#FFFFFF", // Texto branco para o indicador remoto
+    "focusBorder": "#0070C9", // Azul para bordas de foco, alinhado ao estilo dos controles de interface da Apple
+    "editorLineNumber.foreground": "#8E8E93" // Cinza claro para números de linha, sutil e elegante
+  },
+  "files.autoSave": "afterDelay", // Salvar automaticamente após um pequeno atraso
+  "files.autoSaveDelay": 1000, // Salva o arquivo automaticamente após 1 segundo de inatividade
+  "editor.formatOnSave": true, // Formata o código automaticamente ao salvar
+  "editor.formatOnPaste": true, // Formata o código ao colar
+  "editor.formatOnType": true, // Formatação em tempo real enquanto digita
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always" // Organiza as importações automaticamente ao salvar
+  },
+  "files.trimTrailingWhitespace": true, // Remove espaços em branco finais
+  "files.insertFinalNewline": true, // Insere uma nova linha no final dos arquivos
+  "files.trimFinalNewlines": true, // Remove novas linhas extras no final dos arquivos
+  "editor.tabCompletion": "on", // Sugestões de conclusão de código com Tab
+  "editor.wordBasedSuggestions": "off", // Evita sugestões com base em palavras não relacionadas ao código
+  "emmet.triggerExpansionOnTab": true, // Expande os snippets do Emmet ao pressionar Tab
+  "explorer.confirmDelete": false, // Não pede confirmação ao excluir arquivos
+  "eslint.enable": true, // Habilita ESLint para qualidade de código JavaScript/TypeScript
+  "eslint.alwaysShowStatus": true, // Mostra o status do ESLint na barra de status
+  "editor.snippetSuggestions": "top", // Exibe snippets no topo das sugestões
+  "prettier.requireConfig": true, // Só executa o Prettier se houver um arquivo de configuração
+  "git.enableCommitSigning": true, // Habilita assinaturas de commit GPG
+  "git.enableSmartCommit": true, // Facilita commits sem etapas intermediárias
+  "git.autofetch": true, // Habilita auto-fetch de repositórios Git
+  "git.confirmSync": false, // Não requer confirmação ao sincronizar
+  "git.countBadge": "all", // Mostra todas as mudanças pendentes no ícone Git da barra de atividades
+  "git.confirmCommit": false, // Desabilita a confirmação de commit
+  "files.watcherExclude": {
+    "**/node_modules/**": true, // Evita que o VS Code monitore mudanças na pasta node_modules
+    "**/dist/**": true, // Evita monitoramento na pasta dist (geralmente para builds)
+    "**/.git/objects/**": true, // Evita monitoramento de arquivos do Git
+    "**/.git/subtree-cache/**": true
+  },
+  "search.exclude": {
+    "**/node_modules": true, // Exclui node_modules das pesquisas
+    "**/bower_components": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/out": true,
+    "**/venv": true
+  },
+  "editor.largeFileOptimizations": true, // Otimiza o editor para lidar com arquivos grandes
+  "typescript.tsserver.log": "off", // Desativa logs do TypeScript para evitar sobrecarga desnecessária
+  "typescript.updateImportsOnFileMove.enabled": "always", // Atualiza importações ao mover arquivos TypeScript
+  "editor.quickSuggestionsDelay": 50, // Acelera as sugestões de código
+  "workbench.editor.enablePreview": false, // Evita a abertura de arquivos em modo de preview
+  "typescript.preferences.quoteStyle": "single", // Usa aspas simples em TypeScript
+  "javascript.preferences.quoteStyle": "single", // Usa aspas simples em JavaScript
+  "terminal.integrated.fontSize": 14, // Ajuste de tamanho de fonte do terminal para uma experiência de leitura clara
+  "terminal.integrated.fontFamily": "Menlo, Monaco, 'Courier New', monospace", // Fontes otimizadas para terminal
+  "editor.suggestSelection": "first", // Sugestões automáticas sempre começam na primeira opção
+  "workbench.statusBar.visible": true, // Mantém a barra de status sempre visível
+  "editor.acceptSuggestionOnEnter": "on", // Sugestões de código são aceitas com Enter
+  "workbench.editor.highlightModifiedTabs": true, // Destaca abas com arquivos modificados
+  "explorer.confirmDragAndDrop": false, // Desabilita confirmação ao arrastar e soltar arquivos
+  "editor.renderLineHighlight": "gutter", // Destaque das linhas no editor apenas na área do número de linha (gutter)
+  "workbench.editor.labelFormat": "short", // Exibe apenas o nome do arquivo na aba do editor (sem caminho completo)
+  "extensions.ignoreRecommendations": true, // Ignora recomendações automáticas de extensões
+  "javascript.updateImportsOnFileMove.enabled": "never", // Não atualiza automaticamente as importações ao mover arquivos JavaScript
+  "editor.parameterHints.enabled": false, // Desabilita as dicas de parâmetros ao escrever funções
+  "javascript.suggest.autoImports": true, // Sugere automaticamente importações ao escrever código JavaScript
+  "typescript.suggest.autoImports": true, // Sugere automaticamente importações ao escrever código TypeScript
+  "editor.rulers": [
+    80,
+    120
+  ], // Mostra uma linha guia no editor em 80 e 120 caracteres, útil para manter o código dentro dos limites de largura
+  "terminal.integrated.tabs.enabled": true, // Habilita guias no terminal integrado, permitindo alternar entre diferentes sessões
+  "terminal.integrated.defaultProfile.windows": "PowerShell", // Define o Git Bash como o terminal padrão no Windows
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features" // Usa o formatador padrão do TypeScript para arquivos React com TypeScript
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features" // Usa o formatador padrão do TypeScript para arquivos TypeScript
+  },
+  "files.exclude": {
+    "**/.classpath": true, // Exclui arquivos de classe Java
+    "**/.project": true, // Exclui arquivos de projeto Eclipse
+    "**/.settings": true, // Exclui arquivos de configuração Eclipse
+    "**/.factorypath": true // Exclui arquivos de caminho de fábrica
+  },
+  "files.associations": {
+    "*.css": "tailwindcss" // Associa arquivos CSS com TailwindCSS para suporte melhorado
+  },
+  "sqltools.useNodeRuntime": true, // Usa o Node.js como runtime para SQLTools
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features" // Usa o formatador padrão do TypeScript para arquivos JavaScript
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features" // Usa o formatador padrão do VS Code para arquivos JSON com comentários
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features" // Usa o formatador padrão do TypeScript para arquivos React com JavaScript
+  },
+  "liveServer.settings.donotShowInfoMsg": true, // Desabilita a mensagem informativa do Live Server
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features" // Usa o formatador padrão do VS Code para arquivos HTML
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features" // Usa o formatador padrão do VS Code para arquivos JSON
+  },
+  "[python]": {
+    "editor.formatOnType": true, // Formata automaticamente o código Python enquanto você digita
+    "editor.defaultFormatter": "ms-python.autopep8" // Usa AutoPep8 como o formatador padrão para Python
+  },
+  "workbench.editorAssociations": {
+    "*.sqlite3": "default", // Usa o editor padrão para arquivos .sqlite3
+    "*.db": "default" // Usa o editor padrão para arquivos .db
+  },
+  "cody.autocomplete.enabled": true, // Habilita autocompletar com o Cody AI
+  "editor.inlineSuggest.suppressSuggestions": true, // Suprime sugestões inline automáticas
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features" // Usa o formatador padrão para arquivos SCSS
+  },
+  "terminal.integrated.env.linux": {}, // Configura variáveis de ambiente específicas para o terminal no Linux (atualmente vazio)
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // Usa Prettier como formatador padrão para arquivos Markdown
+  },
+  "cSpell.enabled": false,
+  "cSpell.language": "en,pt"
+}

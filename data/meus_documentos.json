@@ -1,0 +1,52 @@
+[
+  {
+    "id": "doc1",
+    "titulo": "Introdução ao MLflow",
+    "conteudo": "MLflow é uma plataforma de código aberto que gerencia o ciclo de vida de aprendizado de máquina. Ele inclui ferramentas para rastreamento de experimentos, gerenciamento de modelos e implantação. MLflow possui quatro componentes principais: MLflow Tracking, MLflow Projects, MLflow Models e MLflow Registry."
+  },
+  {
+    "id": "doc2",
+    "titulo": "MLflow Tracking",
+    "conteudo": "O MLflow Tracking é um componente que ajuda a registrar e visualizar parâmetros, métricas e artefatos dos experimentos. Com o Tracking, você pode comparar múltiplos experimentos para identificar as melhores configurações e resultados. Ele oferece uma API REST e uma interface de linha de comando."
+  },
+  {
+    "id": "doc3",
+    "titulo": "MLflow Projects",
+    "conteudo": "MLflow Projects define um formato para reprodutibilidade de projetos de aprendizado de máquina. Cada projeto é uma unidade reprodutível com um arquivo YAML chamado MLproject que especifica suas dependências, scripts e configuração de execução. Os projetos podem ser executados em ambientes locais ou remotos."
+  },
+  {
+    "id": "doc4",
+    "titulo": "MLflow Models",
+    "conteudo": "O MLflow Models permite o gerenciamento e a implantação de modelos treinados. Ele define um formato padronizado para exportação de modelos que pode ser utilizado com várias ferramentas de aprendizado de máquina. Você pode exportar modelos para outros sistemas e também fazer o 'serve' em uma API REST."
+  },
+  {
+    "id": "doc5",
+    "titulo": "MLflow Registry",
+    "conteudo": "O MLflow Registry fornece uma interface para controle de versão de modelos. Ele permite que você registre modelos, acompanhe diferentes versões, atribua status a modelos e colabore com sua equipe. Isso facilita o gerenciamento de modelos ao longo do tempo e suas atualizações."
+  },
+  {
+    "id": "doc6",
+    "titulo": "Instalando o MLflow",
+    "conteudo": "Para instalar o MLflow, use o pip com o comando 'pip install mlflow'. É recomendável que você instale o MLflow em um ambiente virtual para evitar conflitos de dependências com outros pacotes Python."
+  },
+  {
+    "id": "doc7",
+    "titulo": "Configurando o MLflow Tracking Server",
+    "conteudo": "O Tracking Server do MLflow pode ser configurado para armazenar logs em um banco de dados SQL e armazenar artefatos em um sistema de arquivos ou serviço de armazenamento em nuvem. Use variáveis de ambiente para definir as URLs do banco de dados e o local de armazenamento dos artefatos."
+  },
+  {
+    "id": "doc8",
+    "titulo": "Autenticação e Autorização no MLflow",
+    "conteudo": "Para segurança, o MLflow pode ser integrado a um sistema de autenticação para proteger o Tracking Server. É possível configurar autenticação baseada em tokens e permissões de acesso para diferentes usuários e equipes, limitando o acesso a logs e modelos."
+  },
+  {
+    "id": "doc9",
+    "titulo": "Implementando um Workflow de Machine Learning com MLflow",
+    "conteudo": "Um workflow comum com o MLflow envolve a definição de experimentos, registro de parâmetros e métricas, comparação de resultados e seleção do modelo ideal para implantação. O MLflow facilita o rastreamento e automação dessas etapas."
+  },
+  {
+    "id": "doc10",
+    "titulo": "Integração do MLflow com Kubernetes",
+    "conteudo": "O MLflow pode ser integrado com o Kubernetes para escalabilidade e gerenciamento de containers. Isso permite que você execute o MLflow Tracking Server e outros componentes em um cluster, facilitando a implantação e o escalonamento de modelos de machine learning em produção."
+  }
+]
