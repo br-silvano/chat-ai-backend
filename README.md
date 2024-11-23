@@ -19,6 +19,4 @@ Este serviço é responsável por processar perguntas enviadas por usuários, ut
 
 Este serviço é projetado para ser eficiente e escalável, utilizando práticas de armazenamento em cache e recuperação de informações para fornecer respostas rápidas e contextualmente relevantes aos usuários.
 
-![Fluxo](image/flow-1.png "Fluxo de Trabalho do Serviço de Processamento de Perguntas")
-
 ![Fluxo](image/flow-2.png "Fluxo de Trabalho do Serviço de Processamento de Perguntas")
